@@ -38,7 +38,7 @@ For Dual Edge TPU to be used in m.2 A- or E-key slot
 
 ![Adapter](TPU_adapter.jpeg)
 
-## m.2 BM version with NVMe to PCIe adapter
+## m.2 BM version
 For Dual Edge TPU to be used in m.2 B- or M-key slot
 
 Adapter itself is 2280 green PCB under Coral Dual Edge TPU (black PCIe card is regular NVMe to PCIe adapter board)
