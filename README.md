@@ -1,6 +1,8 @@
 # Dual Edge TPU Adapter
 Dual Edge TPU Adapter to use it on a system with single PCIe port on m.2 A/B/E/M slot or desktop PCIe x1
 
+![Adapter](TPU_Adapter_PCIe.jpg)
+
 ## Why would I need an adapter for Coral Dual Edge TPU?
 Coral Dual Edge TPU is one card with two identical TPU cores. Each core has it's own PCIe interface and motherboard shall have two PCIe busses on m.2 slot to make them both work. 
 
@@ -31,7 +33,7 @@ There are m.2 E-key to desktop PCIe adapters, but those passively pass one PCIe 
 For Dual Edge TPU to be used in desktop PCIe x1 slot
 [Availability](https://github.com/magic-blue-smoke/Dual-Edge-TPU-Adapter/issues/4)
 
-![Adapter](PCB_PCIe_x1b.png)
+![Adapter](TPU_Adapter_PCIe.jpg)
 
 ## m.2 AE version
 For Dual Edge TPU to be used in m.2 A- or E-key slot
