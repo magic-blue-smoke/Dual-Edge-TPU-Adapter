@@ -28,9 +28,11 @@ First, make sure your m.2 slot has PCIe bus, because m.2 B and M slots can suppo
 ### I'd like to use Coral Dual Edge TPU with desktop PCIe x1 slot
 There are m.2 E-key to desktop PCIe adapters, but those passively pass one PCIe interface to the card, ie only one TPU core will work. To make both cores work I've developed and manufactured adapters with planned availability in late September: https://github.com/magic-blue-smoke/Dual-Edge-TPU-Adapter/issues/4
 
-## Placeholder for non-dual TPU issues and non-compatibility 
-- M.2 E-key slot for WiFi card can have CNVio interface instead of PCIe. No TPU(s) will be detected
+# Placeholder for non-dual TPU issues and non-compatibility 
+- M.2 E-key slot for WiFi card can have CNVio interface instead of PCIe. No TPU(s) will be detected if it's CNVio
 - SATA only m.2 B/M key slots are not compatible
+- USB to m.2 SATA eclosures are not compatible
+- USB to m.2 NVMe enclosures are not tested, but I expect this option will NOT work. USB to PCIe bridge here is not transparent, ie NVMe drive will not show up as PCIe device in system. Instead, bridge IC implements USB Mass Storage Class on USB side and translates these transfers to PCIe NVMe commands. 
 
 # Prototyped adapter types
 ## Low profile PCIe x1 version
