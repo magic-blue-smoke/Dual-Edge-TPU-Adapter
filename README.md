@@ -37,7 +37,7 @@ There are m.2 E-key to desktop PCIe adapters, but those passively pass one PCIe 
 # Prototyped adapter types
 ## Low profile PCIe x1 version
 For Dual Edge TPU to be used in desktop PCIe x1 slot
-[Availability](https://github.com/magic-blue-smoke/Dual-Edge-TPU-Adapter/issues/4)
+[Availability](https://mbs-shop.online/)
 
 ![Adapter](TPU_Adapter_PCIe.jpg)
 
