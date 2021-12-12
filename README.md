@@ -1,7 +1,30 @@
 # Dual Edge TPU Adapter
 Dual Edge TPU Adapter to use it on a system with single PCIe port on m.2 A/B/E/M slot or desktop PCIe x1
 
+# Adapter types
+## Low profile PCIe x1 version
+For Dual Edge TPU to be used in desktop PCIe x1 slot
+
+[Shop](https://mbs-shop.online/)
+
+[Waiting list](https://mbs-shop.online/waitinglist)
+
 ![Adapter](TPU_Adapter_PCIe.jpg)
+
+## m.2 BM version
+For Dual Edge TPU to be used in m.2 B- or M-key slot
+
+[Shop](https://mbs-shop.online/)
+
+[Waiting list](https://mbs-shop.online/waitinglist)
+
+m.2 B+M 2280 hand soldered prototype:
+![m.2 B+M key 2280 Coral Dual Edge Adapter](Adapter-m.2-BM1s.jpeg)
+
+## m.2 AE version
+For Dual Edge TPU to be used in m.2 A- or E-key slot
+
+![Adapter](TPU_adapter.jpeg)
 
 ## Why would I need an adapter for Coral Dual Edge TPU?
 Coral Dual Edge TPU is one card with two identical TPU cores. Each core has it's own PCIe interface and motherboard shall have two PCIe busses on m.2 slot to make them both work. 
@@ -23,31 +46,13 @@ To make both cores working you can:
 - use Coral Dual Edge TPU in PCIe x1 slot with Low profile PCIe x1 adapter (see below)
 
 ### I have only m.2 B/M slot for SSD, is there some kind of adapter for Coral Dual Edge TPU card?
-First, make sure your m.2 slot has PCIe bus, because m.2 B and M slots can support NVMe, SATA or both interfaces. You'd need slot to support NVMe or both, NVMe and SATA interfaces. With latter, motherboard automatically detects type of m.2 card and muliplexes PCIe or SATA accordigly to configuration pins on m.2 card. With passive adapter you'll see only one TPU core. I've successfully prototyped active adapter that makes both cores work. Please express your interest here to push those adapters to production: https://github.com/magic-blue-smoke/Dual-Edge-TPU-Adapter/issues/5
+First, make sure your m.2 slot has PCIe bus, because m.2 B and M slots can support NVMe, SATA or both interfaces. You'd need slot to support NVMe or both, NVMe and SATA interfaces. With latter, motherboard automatically detects type of m.2 card and muliplexes PCIe or SATA accordigly to configuration pins on m.2 card. With passive adapter you'll see only one TPU core. I've successfully prototyped active adapter that makes both cores work. Please express your interest here: https://mbs-shop.online/waitinglist
 
 ### I'd like to use Coral Dual Edge TPU with desktop PCIe x1 slot
-There are m.2 E-key to desktop PCIe adapters, but those passively pass one PCIe interface to the card, ie only one TPU core will work. To make both cores work I've developed and manufactured adapters with planned availability in late September: https://github.com/magic-blue-smoke/Dual-Edge-TPU-Adapter/issues/4
+There are m.2 E-key to desktop PCIe adapters, but those passively pass one PCIe interface to the card, ie only one TPU core will work. To make both cores work I've developed and manufactured adapters. First production run is sold out, you can apply for a waiting list here: https://mbs-shop.online/waitinglist
 
 # Placeholder for non-dual TPU issues and non-compatibility 
 - M.2 E-key slot for WiFi card can have CNVio interface instead of PCIe. No TPU(s) will be detected if it's CNVio
 - SATA only m.2 B/M key slots are not compatible
 - USB to m.2 SATA eclosures are not compatible
 - USB to m.2 NVMe enclosures are not tested, but I expect this option will NOT work. USB to PCIe bridge here is not transparent, ie NVMe drive will not show up as PCIe device in system. Instead, bridge IC implements USB Mass Storage Class on USB side and translates these transfers to PCIe NVMe commands. 
-
-# Prototyped adapter types
-## Low profile PCIe x1 version
-For Dual Edge TPU to be used in desktop PCIe x1 slot
-[Availability](https://mbs-shop.online/)
-
-![Adapter](TPU_Adapter_PCIe.jpg)
-
-## m.2 AE version
-For Dual Edge TPU to be used in m.2 A- or E-key slot
-
-![Adapter](TPU_adapter.jpeg)
-
-## m.2 BM version
-For Dual Edge TPU to be used in m.2 B- or M-key slot
-
-m.2 B+M 2280 hand soldered prototype:
-![m.2 B+M key 2280 Coral Dual Edge Adapter](Adapter-m.2-BM1s.jpeg)
