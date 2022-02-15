@@ -21,6 +21,11 @@ For Dual Edge TPU to be used in m.2 B- or M-key slot
 m.2 B+M 2280 hand soldered prototype:
 ![m.2 B+M key 2280 Coral Dual Edge Adapter](Adapter-m.2-BM1s.jpeg)
 
+
+m.2 B+M 2280:
+
+![m.2 B+M key 2280 Coral Dual Edge Adapter](Adapter-m.2-BM2s.jpg)
+
 ## m.2 AE version
 For Dual Edge TPU to be used in m.2 A- or E-key slot
 
