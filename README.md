@@ -5,7 +5,11 @@ Dual Edge TPU Adapter to use it on a system with single PCIe port on m.2 A/B/E/M
 ## Low profile PCIe x1 version
 For Dual Edge TPU to be used in desktop PCIe x1 slot
 
-[Shop](https://mbs-shop.online/)
+[Order online](https://www.makerfabs.com/dual-edge-tpu-adapter.html)
+
+Store updates [on GitHub issues](https://github.com/magic-blue-smoke/Dual-Edge-TPU-Adapter/issues/8)
+
+Follow on [Twitter](https://twitter.com/magic__smoke)
 
 [Waiting list](https://mbs-shop.online/waitinglist)
 
@@ -13,8 +17,6 @@ For Dual Edge TPU to be used in desktop PCIe x1 slot
 
 ## m.2 BM version
 For Dual Edge TPU to be used in m.2 B- or M-key slot
-
-[Shop](https://mbs-shop.online/)
 
 [Waiting list](https://mbs-shop.online/waitinglist)
 
