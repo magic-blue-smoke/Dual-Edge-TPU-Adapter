@@ -1,7 +1,18 @@
 # Dual Edge TPU Adapter
-Dual Edge TPU Adapter to use it on a system with single PCIe port on m.2 A/B/E/M slot or desktop PCIe x1
+Dual Edge TPU Adapter to use it on a system with single PCIe port on m.2 A/B/E/M slot or desktop PCIe
 
 # Adapter types
+## Low profile PCIe x4 for two Dual Edge TPU cards
+In development
+
+Store updates [on GitHub issues](https://github.com/magic-blue-smoke/Dual-Edge-TPU-Adapter/issues/8)
+
+Follow on [Twitter](https://twitter.com/magic__smoke)
+
+[Waiting list](https://mbs-shop.online/waitinglist)
+
+![Adapter](PCIex4_2xDualTPU_s.jpeg)
+
 ## Low profile PCIe x1 version
 For Dual Edge TPU to be used in desktop PCIe x1 slot
 
@@ -18,11 +29,13 @@ Follow on [Twitter](https://twitter.com/magic__smoke)
 ## m.2 BM version
 For Dual Edge TPU to be used in m.2 B- or M-key slot
 
+[Order online](https://www.makerfabs.com/dual-edge-tpu-adapter-m2-2280-b-m-key.html)
+
+Store updates [on GitHub issues](https://github.com/magic-blue-smoke/Dual-Edge-TPU-Adapter/issues/8)
+
+Follow on [Twitter](https://twitter.com/magic__smoke)
+
 [Waiting list](https://mbs-shop.online/waitinglist)
-
-m.2 B+M 2280 hand soldered prototype:
-![m.2 B+M key 2280 Coral Dual Edge Adapter](Adapter-m.2-BM1s.jpeg)
-
 
 m.2 B+M 2280:
 
