@@ -5,7 +5,9 @@ Dual Edge TPU Adapter to use it on a system with single PCIe port on m.2 A/B/E/M
 ## Low profile PCIe x4 for two Dual Edge TPU cards
 [Order now!](https://www.makerfabs.com/dual-edge-tpu-adapter-for-two-tpu-cards.html)
 
-[Follow on X](https://x.com/magic__smoke)
+For the updates:
+- follow on X: [@magic__smoke](https://twitter.com/magic__smoke)
+- follow on Instagram: [magic.blue.smoke](https://www.instagram.com/magic.blue.smoke)
 
 Store updates [on GitHub issues](https://github.com/magic-blue-smoke/Dual-Edge-TPU-Adapter/issues/8)
 
